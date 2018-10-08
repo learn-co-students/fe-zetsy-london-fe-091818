@@ -2,6 +2,15 @@
 
 /* link the web font used for the level 1 heading here */
 
+h1 {
+  text-align: left;
+  color: lightgrey;
+  font-size: 400%
+}
+
+#necklace {
+  border: 3px solid black;
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +27,8 @@ body {
 }
 
 /* Write all remaining styles here */
+
+
+.copyright {
+  text-align: right;
+}
