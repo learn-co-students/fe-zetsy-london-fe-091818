@@ -4,8 +4,9 @@
 
 h1 {
   text-align: left;
-  color: lightgrey;
-  font-size: 400%
+  font-family:'Baskerville';
+  color: rgb(153 173 166);
+  font-size: 5em
 }
 
 #necklace {
@@ -31,4 +32,8 @@ body {
 
 .copyright {
   text-align: right;
+}
+
+h2 {
+  color: rgb(153 173 166);
 }
