@@ -1,20 +1,92 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+    
+}
 
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+  background-color: rgb(243,235,233)
+  
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+  margin:0 auto;
+  margin-top: 0;
+  width: 960px;
+  padding: 0 45px 20px;
+  background-color:rgb(255,255,255);
 }
 
-/* Write all remaining styles here */
+h1 {
+  font-size:80px;
+  margin:0 0 5px;
+  padding-bottom:10px;
+  color:rgb(153,173,166);
+  font-family: 'Baskerville', serif;
+  border-bottom: 1px solid rgb(153,173,166);
+}
+
+
+.necklace {
+  border: 4px rgb(152,173,166) solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+
+h2 { 
+  color:rgb(111,127,112);
+  font-size:30px;
+  
+}
+
+p {
+  display:block;
+  text-align: left;
+  color:rgb(85,85,85);
+  margin: 0 0 20px 0;
+  
+}
+
+a:link {
+  color: rgb(32,128,180); 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(32,128,180); 
+  background-color: transparent; 
+  text-decoration: underline;
+}
+
+
+#press {
+  display: block;
+}
+
+
+#press a {
+  border: 5px rgb(204,204,204) solid;
+  padding: 1px;
+  margin-bottom: 20px;
+  
+}
+
+footer p {
+    padding-bottom:5px;
+    margin: 0 0 20px 0;
+  
+}
+
+.small {
+    display: block;
+    font-family: 'Times New Roman', serif;
+    font-size: 12px;
+    text-align: right;
+  
+}
