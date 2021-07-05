@@ -2,6 +2,16 @@
 
 /* link the web font used for the level 1 heading here */
 
+h1 {
+  text-align: left;
+  font-family:'Baskerville';
+  color: rgb(153 173 166);
+  font-size: 5em
+}
+
+#necklace {
+  border: 3px solid black;
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +28,12 @@ body {
 }
 
 /* Write all remaining styles here */
+
+
+.copyright {
+  text-align: right;
+}
+
+h2 {
+  color: rgb(153 173 166);
+}
